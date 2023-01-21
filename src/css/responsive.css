@@ -1,0 +1,50 @@
+@media (max-width: 1200px) {
+    body {
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+
+    }
+
+    .background_video {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .mario {
+        max-width: 50%;
+    }
+
+    .container .info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .description {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .button_trailer {
+        background-color: #263238;
+        margin-right: 90px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .image_title {
+        max-width: 75%;
+    }
+}
